@@ -1,0 +1,160 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+ height: 100%;
+overflow-y: auto;
+  margin: 0;
+  background: #02080e;
+}
+
+.headline-b{
+  padding: 450px 75px;
+  background: no-repeat center/99%  url("/images/banner-a.png") ;
+
+}
+
+.headline-c{
+  padding: 250px 75px;
+  background: no-repeat center/99%  url("/images/exterior.gif") ;
+
+}
+
+.headline-d{
+  padding: 250px 75px;
+  background: no-repeat center/99%  url("/images/webinterior.gif") ;
+
+}
+.headline-e{
+  padding: 250px 75px;
+  background: no-repeat center/99%  url("/images/copyright.gif") ;
+
+}
+
+.quote-b{
+  position: relative;
+  padding: 10px 100px;
+  background: transparent;
+  text-decoration: none;
+  color: transparent;
+  left: 67%;
+  bottom: -40px;
+}
+
+.quote-e{
+  position: relative;
+  padding: 10px 50px;
+  background: transparent;
+  text-decoration: none;
+  color: transparent;
+
+  bottom: -130px;
+}
+
+.tiktok{
+  position: relative;
+  padding: 20px 20px;
+  background: transparent;
+  text-decoration: none;
+  color: transparent;
+  left:72%;
+  bottom: -130px;
+}
+.call{
+  position: relative;
+  padding: 20px 60px;
+  background: transparent;
+  text-decoration: none;
+  color: transparent;
+  bottom: -130px;
+}
+.quote-b:hover, .call:hover{
+  color: transparent;
+  text-decoration: hidden;
+}
+.quote-e:hover,.tiktok:hover{
+  color: transparent;
+  text-decoration: hidden;
+}
+@media only screen and (min-width: 1080px) and (max-width: 1370px) {
+
+  
+.quote-b{
+ 
+  bottom: -40px;
+}
+
+.quote-e{
+ 
+  
+  bottom: -80px;
+}
+
+.tiktok{
+  left: 675px;
+  bottom: -80px;
+}
+.call{
+  left: -16%;
+ 
+  bottom: -80px;
+}
+
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  html, body {
+  overflow-x:hidden 
+} 
+  body{
+    margin: 0;
+    overflow-x: hidden;
+  }
+.headline-b {
+  padding: 100px 15px;
+  
+}
+.headline-c {
+    object-fit: contain;
+  padding: 100px 15px;
+   margin-top: 5px;
+    margin-bottom: 5px;
+}
+  .headline-d {
+    object-fit: contain;
+    padding: 100px 15px;
+    margin-bottom: 5px;
+}
+  .headline-e {
+    object-fit: contain;
+    padding: 100px 15px;
+    margin-bottom: 5px;
+}
+  .quote-b{
+ 
+  bottom: -40px;
+}
+
+.quote-e{
+ left: -2%; 
+ padding: 1px .2px;
+
+  bottom: -32px;
+
+}
+
+.tiktok{
+left: 66%; 
+ padding: .02px .2px;
+ 
+bottom: -32px;
+
+}
+.call{
+ left: -12%; 
+ padding: .02px .2px;
+
+  bottom: -32px;
+}
+}
