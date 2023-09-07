@@ -1,0 +1,92 @@
+.arrow {
+  border: solid floralwhite;
+  border-width: 0 9px 9px 0;
+  box-shadow: 2px 2px 2px green;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  position: absolute;
+  left: 75%;
+  bottom: 50%;
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+   position: absolute;
+   left: 25%;
+  bottom: 50%;
+}
+/* Wide Screen */
+@media only screen and (min-width: 1920px) {
+
+}
+/* Large Desktop */
+@media only screen and (min-width: 1370px) and (max-width: 1605px) {
+
+}
+/* Laptop */
+@media only screen and (min-width: 1080px) and (max-width: 1370px) {
+.right{
+ left: 90%;
+  
+}
+.left{
+  left: 10%;
+}
+  
+ 
+}
+
+/* Smaller Laptop */
+@media only screen and (min-width: 720px) and (max-width: 1080px) {
+.right{
+ left: 90%;
+}
+.left{
+  left: 5%;
+}
+
+  .copyright{
+    font-size: 25px;
+  }
+}
+
+/* Mobile */
+@media only screen and (min-width: 480px) and (max-width: 720px) {
+   body{
+    height: 100vh;
+  }
+  .right{
+ left: 90%;
+}
+.left{
+  left: 5%;
+}
+
+  .copyright{
+    font-size: 25px;
+  }
+ 
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .right{
+ left: 90%;
+}
+.left{
+  left: 5%;
+}
+
+  .copyright{
+    font-size: 25px;
+  }
+
+  .tiktok-embed{
+   width: 50%;
+  }
+}
+

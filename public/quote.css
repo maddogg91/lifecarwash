@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Belanosima&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@500&display=swap');
+body{
+ height: 100%;
+  margin: 0;
+  
+  background: no-repeat center/99%  url("/images/pexelscar.jpg") ;
+  font-weight: bolder;
+}
+body .img{
+    opacity: 0.5;
+}
+.container{
+  background:#bebfc0;
+  width: 75%;
+  height:1000px;
+    text-shadow: 2px 2px 2px #21add5;
+  color: white;
+  text-align: center;
+}
+
+h1{
+  font-family: Belanosima;
+  color: ghostwhite;
+  text-shadow: 2px 2px 2px #21add5;
+}
+
+@media only screen and (min-width: 1920px) {
+  
+}
+
+@media only screen and (min-width: 1370px) and (max-width: 1605px) {
+}
+
+@media only screen and (min-width: 1080px) and (max-width: 1370px) {
+
+}
+
+@media only screen and (min-width: 720px) and (max-width: 1080px) {
+ 
+}
+
+@media only screen and (min-width: 480px) and (max-width: 720px) {
+   body{
+    height: 100vh;
+  }
+}
+
+
+
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  html, body {
+  overflow:hidden 
+} 
+  body{
+    margin: 0;
+    overflow-x: hidden;
+     height: 100vh;
+    background-image: url("/images/pexelscar.jpg") ;
+    background-color: black;
+    background-attachment: scroll;
+  }
+  .container{
+    overflow:auto;
+    width: 120%;
+    height: 600px;
+  }
+  .headline-e{
+  display: none;
+
+  }
+  br {
+  content: "";
+  margin: 2em;
+  display: block;
+  font-size: 50%;
+}
+}
+
+@media only screen and (min-width: 50px) and (max-width: 320px) {
+  
+}
+
+
