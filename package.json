@@ -1,6 +1,6 @@
 {
 
-   "name": "Life Car Wash",
+   "name": "LifeCarWash",
   "version": "1.0.0",
   "description": "Creates random stats for a 2K Create A Player",
   "main": "server.js",
